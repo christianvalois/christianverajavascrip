@@ -14,7 +14,8 @@ if (diametroParseada > 15 && diametroParseada < 17) {
 }
 for (let i = 1; i <= 1; i++) {
     alert("para mas informacion llame al numero de contacto gracias");
+    
 }
-for (let i = 1; i <=1; i++) {
+for (let i = 1; i <= 1; i++) {
   alert("para una nueva busqueda recargar la pagina");
 }
