@@ -1,4 +1,9 @@
 
+function pedirNombreYsaludar() {
+  const nombre = prompt("ingrese su nombre");
+  alert("bienvenido" + " " + nombre);
+}
+pedirNombreYsaludar();
 const autos = prompt ("ingresa la marca de tu auto");
 const modelo = prompt ("ingresa el modelo");
 alert("para el modelo de tu auto" + " " + autos + " " + modelo + " " + "tenemos dos modelos de llantas, racing y sport en 16 y 17'");
