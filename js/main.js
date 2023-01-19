@@ -18,10 +18,24 @@ if (diametroParseada > 15 && diametroParseada < 17) {
   alert("Entrada invalida")
 }
 for (let i = 1; i <= 2; i++) {
-    alert("para mas informacion llame al numero 55555");
-    alert("gracias por su visita");
+  alert(" Los Precios que se Muestran Son Sin IVA ")
+  alert("Si lo Desea Use Nuestro Simulador Para Calcular El IVA");
 break;
 }
+const IVA = 21;
+
+const calcularIva = (precio) => {
+  const resultado = precio + (precio * IVA / 100);
+  return resultado;
+}
+let precioProducto;
+do {
+  precioProducto = prompt('Calcule el IVA del Producto Elegido, Caso Contrario Presione FIN');
+  const precioProductoParseado = parseFloat(precioProducto);
+  if (precioProductoParseado > 0) {
+    alert('Precio con iva (' + IVA + '%): ' + calcularIva(precioProductoParseado));
+  }
+} while (precioProducto != 'FIN');
 
 class Neumaticos {
   constructor({marca, medidas, precio,}) {
