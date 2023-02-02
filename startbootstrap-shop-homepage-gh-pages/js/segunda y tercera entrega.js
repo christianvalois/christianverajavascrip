@@ -36,7 +36,7 @@ const neumaticosPerfilBajo = {
   
   let NeumaticosEconomicos = ["falken", "devica",];
   NeumaticosEconomicos.push("lanvigator","egommerce","kormoran");
-  console.log(NeumaticosEconomicos);
+ 
   
   let NeumaticosUltimasUnidadesFabricadas = ["traxmax", "orium", "uniroyal"];
   NeumaticosUltimasUnidadesFabricadas.pop();
