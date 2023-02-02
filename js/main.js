@@ -19,7 +19,7 @@ if (diametroParseada > 15 && diametroParseada < 17) {
 }
 for (let i = 1; i <= 2; i++) {
   alert(" Los Precios que se Muestran Son Sin IVA ")
-  alert("Si lo Desea Use Nuestro Simulador Para Calcular El IVA");
+  alert(" Si lo Desea Use Nuestro Simulador Para Calcular El IVA ");
 break;
 }
 const IVA = 21;
