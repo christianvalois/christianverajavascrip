@@ -98,4 +98,12 @@ boton = document.getElementById("boton");
 boton.addEventListener("click", () => {
 });
 });
-
+const formBoton = document.getElementById("boton");
+formBoton.addEventListener("click", ()=> {
+Swal.fire({
+  title: "Logrado",
+  text: "Te Enviaremos Las Ofertas!!!!",
+  confirmButtonText: "cerrar",
+});
+}
+);
