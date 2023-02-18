@@ -34,18 +34,10 @@ const neumaticosPerfilBajo = {
   marca: "Hankook"
 }
 
-console.log(NeumaticosSport);
-console.log(NeumaticosMixtos);
-console.log(NeumaticosNormales);
-
 let NeumaticosEconomicos = ["falken", "devica",];
 NeumaticosEconomicos.push("lanvigator", "egommerce", "kormoran");
-console.log(NeumaticosEconomicos);
-
 let NeumaticosUltimasUnidadesFabricadas = ["traxmax", "orium", "uniroyal"];
 NeumaticosUltimasUnidadesFabricadas.pop();
-console.log(NeumaticosUltimasUnidadesFabricadas);
-
 const ventaHastaAgotarStoc = NeumaticosEconomicos.concat(NeumaticosUltimasUnidadesFabricadas);
-console.log(ventaHastaAgotarStoc);
+
 
