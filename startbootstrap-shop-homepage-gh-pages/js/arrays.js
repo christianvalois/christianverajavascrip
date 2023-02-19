@@ -1,43 +1,33 @@
-class Neumaticos {
-  constructor({ marca, medidas, precio, }) {
-    this.marca = marca;
-    this.medidas = medidas;
-    this.precio = precio;
+const ultimosNeumaticosEnVenta = [
+    {
+      marca: "falken",
+      medidas: "170-75-16",
+      precio: " oferta sin iva $ 8.000"
+    },
+    {
+      marca: "orium",
+      medidas: "140-64-14",
+      precio: " oferta sin iva $ 9.000"
+    },
+    {
+      marca: "traxmax",
+      medidas: "150-75-14",
+      precio: " oferta sin iva $9.000"
+    },
+    {
+      marca: "kormoran",
+      medidas: "150-60-14",
+      precio: " oferta sin iva $8.000 "
+    },
+  ];
+  localStorage.setItem("marcasDiscontinuas", JSON.stringify(ultimosNeumaticosEnVenta));
+  const UltimosNeumaticosGuardadosEnLe = localStorage.getItem("marcasDiscontinuas");
+   JSON.parse(UltimosNeumaticosGuardadosEnLe); 
+  const listado = document.createElement("p");
+  for (const marcas of ultimosNeumaticosEnVenta) {
+    const p = document.createElement("p");
+    p.innerHTML = `${marcas.marca}`;
+    listado.append(p);
   }
-}
-
-const NeumaticosSport = new Neumaticos({
-  marca: "good year",
-  medidas: "215-60-R16",
-  precio: "iva incluido $ 40.000"
-
-});
-
-const NeumaticosMixtos = new Neumaticos({
-  marca: "fate",
-  medidas: "165-70-R14",
-  precio: "iva incluido $30.000"
-
-});
-
-const NeumaticosNormales = new Neumaticos({
-  marca: "firestone",
-  medidas: "170-65-R14",
-  precio: " iva incluido $25.000"
-});
-const neumaticosTacos = {
-  ...NeumaticosMixtos,
-  marca: "michelin"
-}
-const neumaticosPerfilBajo = {
-  ...NeumaticosSport,
-  marca: "Hankook"
-}
-
-let NeumaticosEconomicos = ["falken", "devica",];
-NeumaticosEconomicos.push("lanvigator", "egommerce", "kormoran");
-let NeumaticosUltimasUnidadesFabricadas = ["traxmax", "orium", "uniroyal"];
-NeumaticosUltimasUnidadesFabricadas.pop();
-const ventaHastaAgotarStoc = NeumaticosEconomicos.concat(NeumaticosUltimasUnidadesFabricadas);
-
-
+  document.querySelector("#pocotiempo").append(listado);
+  
