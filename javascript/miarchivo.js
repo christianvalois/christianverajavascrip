@@ -38,7 +38,6 @@ function agregarAlCarrito(e) {
     if (e.target.classList.contains("agregar-carrito")) {
         
         const productoSeleccionado = e.target.parentNode;
-        console.log(productoSeleccionado);
         obtenerDatos(productoSeleccionado);
     }
 }
@@ -50,10 +49,7 @@ function obtenerDatos(productoCard) {
         img: productoCard.parentNode.querySelector(".imgProd").src
  
     };
-
-    console.log(datosProducto);
     carrito.push(datosProducto);
-    console.log(carrito);
     guardarStorage();
 }
 
