@@ -1,0 +1,9 @@
+[
+    {"title": "Camiones", "description": "385-65-R22", "price": 550, "img": "../media/producto1.jpeg", "id":1},
+    {"title": "Sport", "description": "255-60-R18", "price": 450, "img": "../media/producto2.jpeg", "id":2},
+    {"title": "Competicion", "description": "245-55-R19", "price": 950, "img": "../media/producto3.jpeg", "id":3},
+    {"title": "Todo Terreno", "description": "260-70-R18", "price": 750, "img": "../media/producto4.jpeg", "id":4},
+    {"title": "Pisteras", "description": "180-55-ZR17", "price": 650, "img": "../media/producto5.jpeg", "id":5},
+    {"title": "Normales", "description": "165-70-R14", "price": 850, "img": "../media/producto6.jpeg", "id":6}
+
+]
