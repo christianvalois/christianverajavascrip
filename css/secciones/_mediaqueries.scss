@@ -14,13 +14,7 @@
     .contenido{
        @include width-media;
     }
-    .mapa-vivero{
-        @include width-media;
-    }
-    .mapa-vivero img{
-       height: 200px;
-         @include width-media;
-     }
+   
 
     #foto-inicio{
         @include width-media;
@@ -35,12 +29,6 @@
      @include width-media;
     
     }
-
-
-
-
-
-
 
     .tip-img img{
       @include width-media;
@@ -68,54 +56,7 @@
         border-left: solid 5px red;
     }
     
-  /* galeria */     
-  .empleados{    
-        height: 100%;
-        @include width-media;
-        margin-top: 50px; 
-        grid-area: contenido;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(1, 1fr);
-        gap: 10px; 
-        justify-self: center;
-        align-items: center;
-        justify-items: center;
-    }
-    .card{
-        grid-area: contenido;
-        grid-row: initial;
-        @include width-media;
-        justify-content: center;
-        justify-self: center;
-        align-items: center;
-        margin-right: 20px  ;
-    }
-   
-    .slide{
-        grid-area: contenido;
-        justify-content: center;
-        justify-self: center;
-        align-items: center;
-        margin-top: 25px;
-        @include width-media;
-       height: auto;
-        padding: 0px;
-    }
-    #img-carrusel{
-       @include width-media;
-        height: 250px;
-        grid-area: contenido;
-        justify-content: center;
-        justify-self: center;
-        align-items: center;
-    }
-
-    .card-body{
-      @include width-media;
-      height: 100px;
-    }
-    /* productos */
+ 
     @mixin media-producto {
         width: 99%;
     }

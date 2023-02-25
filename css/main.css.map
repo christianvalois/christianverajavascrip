@@ -6,8 +6,6 @@
         "secciones/_reset.scss",
         "secciones/_general.scss",
         "secciones/_index.scss",
-        "secciones/_galeria.scss",
-        "secciones/_tipsycuidados.scss",
         "secciones/_productos.scss",
         "secciones/_contacto.scss",
         "secciones/_mediaqueries.scss"
