@@ -668,7 +668,23 @@ footer {
         font-size: 0.8em;
         
         }
-        
-     
-
  }
+
+ #principal{
+    background-color: rgb(74, 96, 81);
+    padding: 10px;
+}
+.ubicacion-txt{
+    color: azure;
+}
+.parrafo-inicio{
+    color: aliceblue;
+    text-align: center;
+    padding: 80px;
+}
+#titulo{
+    color: azure;
+}
+.m-0{
+    color: aliceblue;
+}
